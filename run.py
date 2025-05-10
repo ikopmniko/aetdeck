@@ -30,7 +30,7 @@ def read_csv_range(filename, start, end):
 
 # Rentang data yang diproses (misal dari baris 1 sampai 50)
 start_row =0  # Baris pertama (0-based index)
-end_row = 5  # Baris terakhir yang ingin diproses
+end_row = 50  # Baris terakhir yang ingin diproses
 
 # Deklarasi akun tunggal
 email = "bryana_hayden@sdn2duwet.ac.id"

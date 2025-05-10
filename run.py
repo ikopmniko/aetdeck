@@ -15,11 +15,11 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
 # Rentang data yang diproses (misal dari baris 1 sampai 50)
-start_row =500  # Baris pertama (0-based index)
-end_row = 550 # Baris terakhir yang ingin diproses
+start_row =550  # Baris pertama (0-based index)
+end_row = 600 # Baris terakhir yang ingin diproses
 
 # Deklarasi akun tunggal
-email = "bronson_kelso@sdn2duwet.ac.id"
+email = "terrence_conway@sdn2duwet.ac.id"
 password = "@@Masuk123#"
 
 
@@ -100,7 +100,7 @@ for title in titles:
 
     judul = title
     modif_kata = title.replace(' ', '_')
-    kw = f'{title} Leaked Video New Uploaded '
+    kw = f'{title} Leaked Video New Upload'
 
     konten = f'''
     29 minutes ago - Access {title} Leaked Only-fans New Updaload FIles 2025<br><br>LINK ⏩⏩ https://topallfans.web.app?title={modif_kata}<br><br>{title} Leaked only-fans update pict  - you ll be able to download and preview all content from {title} Only-fans in just a few clicks.

@@ -14,11 +14,11 @@ SUPABASE_TABLE_NAME = "sp"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Rentang data yang diproses (misal dari baris 1 sampai 50)
-start_row =1500  # Baris pertama (0-based index)
-end_row = 1600  # Baris terakhir yang ingin diproses
+start_row =1600  # Baris pertama (0-based index)
+end_row = 1700  # Baris terakhir yang ingin diproses
 
 # Deklarasi akun tunggal
-email = "nathan_francis@sdn2duwet.ac.id"
+email = "ricardo_schindler@sdn2duwet.ac.id"
 password = "@@Masuk123#"
 
 

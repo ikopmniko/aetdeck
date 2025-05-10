@@ -14,6 +14,18 @@ SUPABASE_TABLE_NAME = "sp"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
+# Rentang data yang diproses (misal dari baris 1 sampai 50)
+start_row =50  # Baris pertama (0-based index)
+end_row = 100 # Baris terakhir yang ingin diproses
+
+# Deklarasi akun tunggal
+email = "genevieve_gonzales@sdn2duwet.ac.id"
+password = "@@Masuk123#"
+
+
+
+
+
 def random_string(count):
     string.ascii_letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
@@ -28,13 +40,7 @@ def read_csv_range(filename, start, end):
         rows = [row[0] for i, row in enumerate(csv.reader(f)) if start <= i < end]
     return rows
 
-# Rentang data yang diproses (misal dari baris 1 sampai 50)
-start_row =0  # Baris pertama (0-based index)
-end_row = 50  # Baris terakhir yang ingin diproses
 
-# Deklarasi akun tunggal
-email = "bryana_hayden@sdn2duwet.ac.id"
-password = "@@Masuk123#"
 
 driver = webdriver.Chrome()
 

@@ -18,7 +18,7 @@ start_row =2000  # Baris pertama (0-based index)
 end_row = 2100  # Baris terakhir yang ingin diproses
 
 # Deklarasi akun tunggal
-email = "desean_cady@sdn2duwet.ac.id"
+email = "kyla_jaime@sdn2duwet.ac.id"
 password = "@@Masuk123#"
 
 

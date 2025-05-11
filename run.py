@@ -14,10 +14,10 @@ SUPABASE_TABLE_NAME = "aeteronlyy"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Rentang data yang diproses (misal dari baris 1 sampai 50)
-start_row = 5100
-end_row = 5200
+start_row = 7800
+end_row = 7900
 
-email = "reid_reilly@sdn2duwet.ac.id"
+email = "jarret_hulsey@sdn2duwet.ac.id"
 password = "@@Masuk123#"
 
 
@@ -69,7 +69,7 @@ time.sleep(3)
 driver.find_element(By.CSS_SELECTOR, "#Google").click()
 time.sleep(3)
 
-clickgoogle2 = f'div[data-identifier="reid_reilly@sdn2duwet.ac.id"]'
+clickgoogle2 = f'div[data-identifier="jarret_hulsey@sdn2duwet.ac.id"]'
 
 driver.find_element(By.CSS_SELECTOR, clickgoogle2).click()
 time.sleep(3)

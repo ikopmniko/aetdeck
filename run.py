@@ -10,15 +10,15 @@ import string
 
 SUPABASE_URL = "https://cqakrownxujefhtmsefa.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNxYWtyb3dueHVqZWZodG1zZWZhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzIyNjMyMzMsImV4cCI6MjA0NzgzOTIzM30.E9jJxNBxFsVZsndwhsMZ_2hXaeHdDTLS7jZ50l-S72U"
-SUPABASE_TABLE_NAME = "sp"
+SUPABASE_TABLE_NAME = "aeteronlyy"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Rentang data yang diproses (misal dari baris 1 sampai 50)
-start_row =1900  # Baris pertama (0-based index)
-end_row = 2000  # Baris terakhir yang ingin diproses
+start_row =2000  # Baris pertama (0-based index)
+end_row = 2100  # Baris terakhir yang ingin diproses
 
 # Deklarasi akun tunggal
-email = "noel_sutherland@sdn2duwet.ac.id"
+email = "desean_cady@sdn2duwet.ac.id"
 password = "@@Masuk123#"
 
 
